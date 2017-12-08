@@ -1,17 +1,17 @@
-#QD - Infinity Scroll
+# QD - Infinity Scroll
 >*Extensões da plataforma VTEX são plugins criados por desenvolvedores de interface ou pelo VTEX Lab (Laboratório de Inovações da VTEX) que podem ser inseridas em sua loja. Existem extensões gratuitas com código aberto -  Open Source - e extensões pagas.  Indicamos que a instalação seja realizada pelos profissionais e empresas certificados pela VTEX. Vale ressaltar que qualquer profissional de CSS, JavaScript e HTML pode também executar esta tarefa.*
 
 ----------
-###Atenção
+### Atenção
 > Esta extensão é mantida por [Quatro Digital](http://www.quatrodigital.com.br) e não possui suporte gratuito.  
 > O código fonte deste componente não pode ser vendido ou comercializado, ele esta livre para uso comercial mas só podem haver cobranças com relação à mão de obra necessária a sua instalação e não por sua utilização.  
 > O correto funcionamento deste script não é de responsabilidade de seu desenvolvedor, mantenedor ou constribuidores.  
 > Caso queira contribuir com o desenvolvimento fique a vontade para fazer um `Fork` e posteriormente um `pull request`.
 
-**O uso desta extensão esta sob as regras da lincença: [MIT](http://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT)**
+** O uso desta extensão esta sob as regras da lincença: [MIT](http://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT)**
 
 ----------
-##Instalação
+## Instalação
 Faça o upload para o "Gerenciador do portal" no "Vtex Admin" dos seguintes arquivos:
 * img/ajax-loader2.gif *(sugestão)*
 * img/returnToTop.png *(sugestão)*
@@ -31,7 +31,7 @@ Execute o plugin:
 $(".prateleira[id*=ResultItems]").QD_infinityScroll();
 ```
 
-###Avançado
+### Avançado
 
 Configurações completas do plugin (lista atualizada em 23/10/2015):
 ```javascript
@@ -68,10 +68,10 @@ $(".prateleira[id*=ResultItems]").QD_infinityScroll({
 
 
 ----------
-##Eventos
+## Eventos
 
 
-###$(window).bind("QuatroDigital.is_Callback", handler);
+### ```$(window).bind("QuatroDigital.is_Callback", handler);```
 
 Esse evento é disparado após cada requisição de uma nova página.
 
@@ -80,7 +80,7 @@ Esse evento é disparado após cada requisição de uma nova página.
 1. Objeto de [evento do jQuery](http://api.jquery.com/Types/#Event).
 
 
-###$(window).bind("QuatroDigital.is_noMoreResults", handler);
+### ```$(window).bind("QuatroDigital.is_noMoreResults", handler);```
 
 Esse evento é disparado quando já não existem mais resultados para serem páginas, ou seja, chegamos na última página.
 
@@ -90,6 +90,6 @@ Esse evento é disparado quando já não existem mais resultados para serem pág
 
 
 ----------
-##Contribuidores
+## Contribuidores
 
  * [Pedro Freires](https://github.com/caljp13/QD-Infinity-Scroll/pull/2)
